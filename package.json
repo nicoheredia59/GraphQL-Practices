@@ -1,0 +1,17 @@
+{
+  "name": "graph_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./src/index.js"
+  },
+  "author": "Nicolas Heredia",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "axios": "^0.21.1",
+    "graphql": "^15.5.2"
+  }
+}
